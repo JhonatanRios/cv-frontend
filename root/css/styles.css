@@ -12,15 +12,20 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-header {
-    margin: 0 0 150px;
-}
-
 footer {
     padding: 15px;
     box-sizing: border-box;
     background: #165ee2;
     color: #fff;
+}
+
+footer i {
+    font-size: 25px;
+    color: #fff;
+}
+
+footer i:hover {
+    opacity: .8;
 }
 
 .center {
