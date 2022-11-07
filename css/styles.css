@@ -1,0 +1,72 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap');
+
+
+/* Estilos Generales */
+* {
+    margin: 0;
+}
+
+body {
+    background: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    margin: 0 0 150px;
+}
+
+footer {
+    padding: 15px;
+    box-sizing: border-box;
+    background: #165ee2;
+    color: #fff;
+}
+
+.center {
+    text-align: center;
+}
+
+section {
+    margin: 0 0 15px;
+}
+
+
+
+.foto {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.foto img {
+    width: 100%;
+    height: auto;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.cont-title {
+    background: #0f1044;
+    color: #fff;
+    margin: 0;
+    letter-spacing: 10px;
+}
+
+ul, .listado {
+    margin: 15px;
+}
+
+.listado .item {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 15px;
+}
+
+.listado .item h4 {
+    margin: 0 5px 0 0;
+}
